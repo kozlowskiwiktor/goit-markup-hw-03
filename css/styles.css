@@ -41,6 +41,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    background-color: #2F303A;;
 }
 .button-fp{
     border: none;
@@ -85,6 +86,12 @@ body {
     font-size: 14px;
     line-height: 1.71em;
     letter-spacing: 0.03em;
+}
+.address{
+    color: #ffffff;
+}
+.footer{
+    background-color: #2F303A;;
 }
 .contact-footer{
     color: rgba(255, 255, 255, 0.6);
