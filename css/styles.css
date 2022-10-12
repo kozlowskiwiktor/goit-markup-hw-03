@@ -22,15 +22,28 @@ body {
 .blue{
     color: #2196F3;
 }
-.logo-all {
+.logo-top {
     font-family: 'Raleway';
     font-size: 26px;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
-.logo-all:hover,
-.logo-all:focus,
-.logo-all:visited{
+.logo-top:hover,
+.logo-top:focus,
+.logo-top:visited{
     color:black;
+}
+.logo-footer {
+    font-family: 'Raleway';
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-footer:hover,
+.logo-footer:focus,
+.logo-footer:visited {
+    color: white;
 }
 
 .slider-text{
@@ -44,7 +57,7 @@ body {
     background-color: #2F303A;;
 }
 .button-fp{
-    border: none;
+    border-color: #2196F3;
     background-color: #2196F3;
     width: 200px;
     height: 50px;
@@ -55,8 +68,11 @@ body {
     color: #ffffff;
     line-height: 1.87em;
     cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 .head-first{
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.23em;
     letter-spacing: 0.03em;
@@ -83,20 +99,23 @@ body {
     color: #757575;
 }
 .address{
-    font-size: 14px;
     line-height: 1.71em;
     letter-spacing: 0.03em;
-}
-.address{
     color: #ffffff;
+    font-style: normal;
 }
 .footer{
     background-color: #2F303A;;
 }
 .contact-footer{
+    line-height: 1.71em;
+    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    text-decoration: none;
 }
 .filter{
+    font-family: 'Roboto';
     font-size: 16px;
     font-weight: 500;
     border:none;
@@ -115,6 +134,10 @@ body {
     font-size: 18px;
     line-height: 2em;
     letter-spacing: 0.06em;
+}
+.project-description {
+    font-size: 16px;
+    line-height: 1.87em;
 }
 .product{
     font-size: 16px;
