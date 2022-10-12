@@ -30,7 +30,7 @@ body {
 }
 .logo-top:hover,
 .logo-top:focus,
-.logo-top:visited{
+.logo-top:visited {
     color:black;
 }
 .logo-footer {
@@ -38,12 +38,13 @@ body {
     font-size: 26px;
     letter-spacing: 0.03em;
     text-decoration: none;
+    color: #ffffff;
 }
 
 .logo-footer:hover,
 .logo-footer:focus,
 .logo-footer:visited {
-    color: white;
+    color: #ffffff;
 }
 
 .slider-text{
