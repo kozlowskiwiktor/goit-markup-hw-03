@@ -1,2 +1,3 @@
-# goit-markup-hw-02
-Home work #2 - html+css
+# goit-markup-hw-03
+
+Home work ## - html+css - flexbox
